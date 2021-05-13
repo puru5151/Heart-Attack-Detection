@@ -1,0 +1,133 @@
+/*
+Project member : Purvesh Dave 
+                 Miloni Nisar
+				 
+Project guide :	Asst.Prof. Mr.Shridhar Kamble.			 
+*/
+
+
+Health Monitoring and detection is divided into 3 modules
+
+
+Module 1
+
+Hardware requirments
+
+
+i.Arduino uno 
+ii.ir sensor
+iii.DS18B20 temperature sensor
+iv. jumper wires
+v. esp8266 esp01 wifi module
+
+
+Software requirments
+
+i.Visual studio 2015
+ii.Sql server management
+
+
+Other requirements
+
+i. smsgatewayhub for sending sms
+ii. stmp for sending mail
+
+
+
+1. In module 1, a website is build and hosted online
+
+2.pin diagram and code is given
+
+3. website code is also given but wont run as it has instance of local database .. it can be ran on local host 
+
+4. maching learning algorithm such as decision tree is used for prediction of heart attack.
+
+5. it finds the sensor data of bpm and temperature and store it in database 
+ 
+ 
+
+
+
+
+Module 2
+
+Hardware requirments
+
+
+i.NodeMcu(esp8266 wifi module)
+ii.pulse sensor
+
+
+Software requirments
+
+i.MIT APP INVENTOR
+
+
+1.In module 2 wrist band or watch is build using NodeMcu(esp8266 wifi module)and a pulse sensor
+
+
+2.pin diagram and code is giving in circuit diagram and code file
+
+pin A0 orange wire(signal wire)
+Pin GND red wire(ground)
+pin VCC blue wire(+5v battery)
+
+3.it sends data to Firebase which is a google product.(Check youtube video how to develop realtime database in Firebase)
+
+change url auth ssid and password before uploading on board.
+
+String FIREBASE_HOST = "purvesh-192911.firebaseio.com";
+String FIREBASE_AUTH = "0zGXXr1GyVm93n1DATYvwmjyPL0TVfafIVgeQLm2";
+#define WIFI_SSID "iot1"
+#define WIFI_PASSWORD "iot12345"
+
+4.For displaying output we developed an application its apk and aia file is provided in apk_&_aia file.
+
+5. It sends notification and email if it finds less or more bpm compared with data set.
+
+Here i am using IFTTT(IF THIS THAN THAT) see youtube videos for better understanding of IFTTT 
+
+
+Module 3
+
+Hardware requirments
+
+
+i.Arduino uno 
+ii.vibration sensor
+iii.buzzer
+iv.breadboard
+v.jummper wires
+
+
+
+
+1.In Module 3 , we are using vibration sensor to sense the vibration on bed .
+
+
+2.pin diagram and code is giving in circuit diagram and code file
+
+pin d3 orange wire(signal wire)
+pin d4 orange wire(signal wire)
+Pin GND blue wire(ground)
+pin VCC red wire(+5v battery)
+
+3. buzzer is added at pin 13 to alert .if condition is true it will be active high .
+
+
+
+
+REST  I WILL EXPLAIN THE PROJECT AND SHARE A VIDEO LINK TO YOU !! ENJOY CODE FOR FUN
+
+for any queries drop a mail.
+
+Purvesh Dave 
+YOUTUBE LINK 
+https://youtu.be/AJQbrFbUwnQ
+
+ purveshdave619@gmail.com
+
+
+
+
+

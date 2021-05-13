@@ -1,0 +1,9 @@
+http://my-demo.in/Health_Monitoring1/request.aspx?bpm=10&btemp=9&user_id=1
+
+http://my-demo.in/Health_Monitoring1/Admin_Login.aspx
+
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/heart-disease.names
+
+
+https://www.codeproject.com/Articles/318126/Naive-Bayes-Classifier
